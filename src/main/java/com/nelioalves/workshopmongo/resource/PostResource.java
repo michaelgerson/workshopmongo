@@ -3,6 +3,7 @@ package com.nelioalves.workshopmongo.resource;
 import com.nelioalves.workshopmongo.domain.Post;
 import com.nelioalves.workshopmongo.resource.util.URL;
 import com.nelioalves.workshopmongo.services.PostService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/posts")
+@Slf4j
 public class PostResource {
 
     @Autowired
@@ -19,12 +21,14 @@ public class PostResource {
 
     @GetMapping
     public ResponseEntity<List<Post>> findAll() {
+        log.info("Listando todos os posts");
         List<Post> list = postService.findAll();
         return ResponseEntity.ok().body(list);
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Post> findById(@PathVariable String id) {
+        log.info("Buscando post pelo id: {}", id);
         Post obj = postService.findById(id);
         return ResponseEntity.ok().body(obj);
     }

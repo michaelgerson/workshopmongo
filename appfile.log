@@ -1,0 +1,208 @@
+2020-06-03 11:41:43.325  INFO 5222 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Starting WorkshopmongoApplication on MacBook-Pro-de-Michael.local with PID 5222 (/Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo/target/classes started by michaelaguiar in /Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo)
+2020-06-03 11:41:43.326  INFO 5222 --- [restartedMain] c.n.w.WorkshopmongoApplication           : No active profile set, falling back to default profiles: default
+2020-06-03 11:41:43.908  INFO 5222 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-03 11:41:43.926  INFO 5222 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 2 MongoDB repository interfaces.
+2020-06-03 11:41:44.089  INFO 5222 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-03 11:41:44.090  INFO 5222 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:41:44.091  INFO 5222 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-03 11:41:44.113  INFO 5222 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:41:44.113  INFO 5222 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 779 ms
+2020-06-03 11:41:44.240  INFO 5222 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-03 11:41:44.242  INFO 5222 --- [cluster-ClusterId{value='5ed7c4b8e3cfec29ebfc072e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:180}] to localhost:27017
+2020-06-03 11:41:44.256  INFO 5222 --- [cluster-ClusterId{value='5ed7c4b8e3cfec29ebfc072e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=586083}
+2020-06-03 11:41:44.283  INFO 5222 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:41:44.398  INFO 5222 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:41:44.576  INFO 5222 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-03 11:41:44.605  INFO 5222 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-03 11:41:44.620  INFO 5222 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Started WorkshopmongoApplication in 1.495 seconds (JVM running for 111.024)
+2020-06-03 11:41:44.625  INFO 5222 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:181}] to localhost:27017
+2020-06-03 11:41:44.698  INFO 5222 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name appfile.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-06-03 11:42:15.104  INFO 5222 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:42:15.105  INFO 5222 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:6, serverValue:181}] to localhost:27017 because the pool has been closed.
+2020-06-03 11:42:27.134  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Starting WorkshopmongoApplication on MacBook-Pro-de-Michael.local with PID 5252 (/Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo/target/classes started by michaelaguiar in /Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo)
+2020-06-03 11:42:27.138  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : No active profile set, falling back to default profiles: default
+2020-06-03 11:42:27.185  INFO 5252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-03 11:42:27.186  INFO 5252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-03 11:42:28.389  INFO 5252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-03 11:42:28.462  INFO 5252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 2 MongoDB repository interfaces.
+2020-06-03 11:42:29.176  INFO 5252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-03 11:42:29.187  INFO 5252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:42:29.187  INFO 5252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-03 11:42:29.253  INFO 5252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:42:29.253  INFO 5252 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2067 ms
+2020-06-03 11:42:29.577  INFO 5252 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-03 11:42:29.670  INFO 5252 --- [cluster-ClusterId{value='5ed7c4e51682c72801b36446', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:182}] to localhost:27017
+2020-06-03 11:42:29.679  INFO 5252 --- [cluster-ClusterId{value='5ed7c4e51682c72801b36446', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5379781}
+2020-06-03 11:42:29.846  INFO 5252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:42:30.198  INFO 5252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:42:30.434  INFO 5252 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-03 11:42:30.475  INFO 5252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-03 11:42:30.488  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Started WorkshopmongoApplication in 3.828 seconds (JVM running for 5.012)
+2020-06-03 11:42:30.521  INFO 5252 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:183}] to localhost:27017
+2020-06-03 11:42:30.990  INFO 5252 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-03 11:42:30.991  INFO 5252 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-03 11:42:31.003  INFO 5252 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-03 11:46:58.835  INFO 5252 --- [Thread-287] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:46:58.842  INFO 5252 --- [Thread-287] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:183}] to localhost:27017 because the pool has been closed.
+2020-06-03 11:46:59.240  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Starting WorkshopmongoApplication on MacBook-Pro-de-Michael.local with PID 5252 (/Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo/target/classes started by michaelaguiar in /Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo)
+2020-06-03 11:46:59.240  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : No active profile set, falling back to default profiles: default
+2020-06-03 11:47:00.381  INFO 5252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-03 11:47:00.411  INFO 5252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 2 MongoDB repository interfaces.
+2020-06-03 11:47:00.670  INFO 5252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-03 11:47:00.671  INFO 5252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:47:00.671  INFO 5252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-03 11:47:00.726  INFO 5252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:47:00.727  INFO 5252 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1480 ms
+2020-06-03 11:47:01.040  INFO 5252 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-03 11:47:01.049  INFO 5252 --- [cluster-ClusterId{value='5ed7c5f51682c72801b3644c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:184}] to localhost:27017
+2020-06-03 11:47:01.084  INFO 5252 --- [cluster-ClusterId{value='5ed7c5f51682c72801b3644c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1834849}
+2020-06-03 11:47:01.190  INFO 5252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:47:01.486  INFO 5252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:47:01.901  INFO 5252 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-03 11:47:01.993  INFO 5252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-03 11:47:02.060  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Started WorkshopmongoApplication in 3.047 seconds (JVM running for 276.584)
+2020-06-03 11:47:02.086  INFO 5252 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:185}] to localhost:27017
+2020-06-03 11:47:02.182  INFO 5252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-03 11:47:27.597  INFO 5252 --- [Thread-291] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:47:27.599  INFO 5252 --- [Thread-291] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:4, serverValue:185}] to localhost:27017 because the pool has been closed.
+2020-06-03 11:47:27.681  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Starting WorkshopmongoApplication on MacBook-Pro-de-Michael.local with PID 5252 (/Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo/target/classes started by michaelaguiar in /Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo)
+2020-06-03 11:47:27.682  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : No active profile set, falling back to default profiles: default
+2020-06-03 11:47:28.242  INFO 5252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-03 11:47:28.256  INFO 5252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 2 MongoDB repository interfaces.
+2020-06-03 11:47:28.374  INFO 5252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-03 11:47:28.375  INFO 5252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:47:28.375  INFO 5252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-03 11:47:28.391  INFO 5252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:47:28.391  INFO 5252 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 707 ms
+2020-06-03 11:47:28.495  INFO 5252 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-03 11:47:28.498  INFO 5252 --- [cluster-ClusterId{value='5ed7c6101682c72801b36452', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:186}] to localhost:27017
+2020-06-03 11:47:28.502  INFO 5252 --- [cluster-ClusterId{value='5ed7c6101682c72801b36452', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=576681}
+2020-06-03 11:47:28.562  INFO 5252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:47:28.710  INFO 5252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:47:28.943  INFO 5252 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-03 11:47:28.976  INFO 5252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-03 11:47:28.990  INFO 5252 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Started WorkshopmongoApplication in 1.331 seconds (JVM running for 303.513)
+2020-06-03 11:47:29.013  INFO 5252 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:187}] to localhost:27017
+2020-06-03 11:47:29.098  INFO 5252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-03 11:47:46.369  INFO 5252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-03 11:47:46.369  INFO 5252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-03 11:47:46.374  INFO 5252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-03 11:48:51.625  WARN 5252 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.nelioalves.workshopmongo.services.exception.ObjectNotFoundException: Objeto não encontrado]
+2020-06-03 11:48:56.825  INFO 5252 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:48:56.826  INFO 5252 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:6, serverValue:187}] to localhost:27017 because the pool has been closed.
+2020-06-03 11:49:05.727  INFO 5327 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Starting WorkshopmongoApplication on MacBook-Pro-de-Michael.local with PID 5327 (/Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo/target/classes started by michaelaguiar in /Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo)
+2020-06-03 11:49:05.730  INFO 5327 --- [restartedMain] c.n.w.WorkshopmongoApplication           : No active profile set, falling back to default profiles: default
+2020-06-03 11:49:05.780  INFO 5327 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-03 11:49:05.781  INFO 5327 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-03 11:49:06.877  INFO 5327 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-03 11:49:06.945  INFO 5327 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 2 MongoDB repository interfaces.
+2020-06-03 11:49:07.437  INFO 5327 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-03 11:49:07.447  INFO 5327 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:49:07.447  INFO 5327 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-03 11:49:07.504  INFO 5327 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:49:07.504  INFO 5327 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1722 ms
+2020-06-03 11:49:07.753  INFO 5327 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-03 11:49:07.792  INFO 5327 --- [cluster-ClusterId{value='5ed7c67314aff705d73ade7b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:188}] to localhost:27017
+2020-06-03 11:49:07.799  INFO 5327 --- [cluster-ClusterId{value='5ed7c67314aff705d73ade7b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2574452}
+2020-06-03 11:49:07.926  INFO 5327 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:49:08.300  INFO 5327 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:49:08.583  INFO 5327 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-03 11:49:08.640  INFO 5327 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-03 11:49:08.655  INFO 5327 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Started WorkshopmongoApplication in 3.397 seconds (JVM running for 4.702)
+2020-06-03 11:49:08.688  INFO 5327 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:189}] to localhost:27017
+2020-06-03 11:49:09.126  INFO 5327 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-03 11:49:09.126  INFO 5327 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-03 11:49:09.134  INFO 5327 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-06-03 11:50:00.849  WARN 5327 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.nelioalves.workshopmongo.services.exception.ObjectNotFoundException: Objeto não encontrado]
+2020-06-03 11:50:14.180  INFO 5327 --- [http-nio-8080-exec-4] c.n.workshopmongo.resource.PostResource  : Listando todos os posts
+2020-06-03 11:50:56.906  INFO 5327 --- [http-nio-8080-exec-6] c.n.workshopmongo.resource.PostResource  : Buscando post pelo id: 5ed7c67414aff705d73ade7f
+2020-06-03 12:00:35.905  INFO 5327 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 12:00:35.912  INFO 5327 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:189}] to localhost:27017 because the pool has been closed.
+2020-06-03 12:09:08.332  INFO 5537 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Starting WorkshopmongoApplication on MacBook-Pro-de-Michael.local with PID 5537 (/Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo/target/classes started by michaelaguiar in /Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo)
+2020-06-03 12:09:08.344  INFO 5537 --- [restartedMain] c.n.w.WorkshopmongoApplication           : No active profile set, falling back to default profiles: default
+2020-06-03 12:09:08.464  INFO 5537 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-03 12:09:08.464  INFO 5537 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-03 12:09:10.406  INFO 5537 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-03 12:09:10.563  INFO 5537 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151ms. Found 2 MongoDB repository interfaces.
+2020-06-03 12:09:11.353  INFO 5537 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-03 12:09:11.364  INFO 5537 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 12:09:11.364  INFO 5537 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-03 12:09:11.471  INFO 5537 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 12:09:11.472  INFO 5537 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3008 ms
+2020-06-03 12:09:11.644  INFO 5537 --- [restartedMain] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-06-03 12:09:11.778  INFO 5537 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-03 12:09:11.860  INFO 5537 --- [cluster-ClusterId{value='5ed7cb2785f5c766cf0a99eb', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:190}] to localhost:27017
+2020-06-03 12:09:11.881  INFO 5537 --- [cluster-ClusterId{value='5ed7cb2785f5c766cf0a99eb', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3625382}
+2020-06-03 12:09:12.104  WARN 5537 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-06-03 12:09:12.519  INFO 5537 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 12:09:12.903  INFO 5537 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-06-03 12:09:12.968  INFO 5537 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-06-03 12:09:13.027  INFO 5537 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-03 12:09:13.051  INFO 5537 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Started WorkshopmongoApplication in 5.241 seconds (JVM running for 7.159)
+2020-06-03 12:09:13.092  INFO 5537 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:191}] to localhost:27017
+2020-06-03 12:09:13.394  WARN 5537 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://localhost:8081//instances]): 404 : [{"timestamp":"2020-06-03T16:09:13.375+00:00","status":404,"error":"Not Found","message":"No message available","path":"/instances"}]. Further attempts are logged on DEBUG level
+2020-06-03 12:12:04.348  INFO 5537 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-06-03 12:12:04.353  INFO 5537 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 12:12:04.360  INFO 5537 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:191}] to localhost:27017 because the pool has been closed.
+2020-06-03 12:32:54.248  INFO 5854 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Starting WorkshopmongoApplication on MacBook-Pro-de-Michael.local with PID 5854 (/Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo/target/classes started by michaelaguiar in /Users/michaelaguiar/Dropbox/Developer 2020/Treinamentos/Udemy/Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB/workshopmongo)
+2020-06-03 12:32:54.251  INFO 5854 --- [restartedMain] c.n.w.WorkshopmongoApplication           : No active profile set, falling back to default profiles: default
+2020-06-03 12:32:54.369  INFO 5854 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-03 12:32:54.369  INFO 5854 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-03 12:32:56.029  INFO 5854 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-03 12:32:56.096  INFO 5854 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 2 MongoDB repository interfaces.
+2020-06-03 12:32:56.640  INFO 5854 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-03 12:32:56.651  INFO 5854 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 12:32:56.651  INFO 5854 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-03 12:32:56.731  INFO 5854 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 12:32:56.731  INFO 5854 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2362 ms
+2020-06-03 12:32:56.874  INFO 5854 --- [restartedMain] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-06-03 12:32:57.038  INFO 5854 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-03 12:32:57.095  INFO 5854 --- [cluster-ClusterId{value='5ed7d0b9af9abd1bd68dfb7c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:192}] to localhost:27017
+2020-06-03 12:32:57.106  INFO 5854 --- [cluster-ClusterId{value='5ed7d0b9af9abd1bd68dfb7c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7108219}
+2020-06-03 12:32:57.291  INFO 5854 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 12:32:57.611  INFO 5854 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 12:32:57.857  INFO 5854 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-06-03 12:32:57.930  INFO 5854 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-06-03 12:32:58.007  INFO 5854 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-03 12:32:58.046  INFO 5854 --- [restartedMain] c.n.w.WorkshopmongoApplication           : Started WorkshopmongoApplication in 4.514 seconds (JVM running for 6.239)
+2020-06-03 12:32:58.117  INFO 5854 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:193}] to localhost:27017
+2020-06-03 12:32:58.441  INFO 5854 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-03 12:32:58.441  INFO 5854 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-03 12:32:58.453  INFO 5854 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-03 12:32:58.661  INFO 5854 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as a973ff14be49
+2020-06-03 12:33:40.802  INFO 5854 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed
+2020-06-03 13:45:02.081  INFO 5854 --- [http-nio-8080-exec-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:194}] to localhost:27017
